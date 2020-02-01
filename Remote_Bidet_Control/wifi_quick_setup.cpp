@@ -1,10 +1,7 @@
 #include "wifi_quick_setup.h"
 
-#define WIFI_SSID "GoogleWatchesUsAll"
-#define WIFI_PASSWORD "rapidpiano738" 
-
-// #define WIFI_SSID "3Blossomsguest"
-// #define WIFI_PASSWORD "4customersonly"
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "PASSWORD" 
 
 void setup_wifi(void){
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
