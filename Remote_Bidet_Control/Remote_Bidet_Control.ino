@@ -16,8 +16,8 @@ M5QuickReadButton quick_read;
 // Communication information
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                  
-#define AIO_USERNAME    "wredenba"
-#define AIO_KEY         "aio_VOvt36DtLob6R6509gy6dP4VYMQV"
+#define AIO_USERNAME    "username"
+#define AIO_KEY         "key"
 
 // Objects to deal with actual connection and mqtt stuff. 
 WiFiClient client;
